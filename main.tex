@@ -23,18 +23,18 @@
  
  \hypersetup{pdfstartview={Fit}} % fits the presentation to the window when first displayed
  
- \title[]{}
- \date{March 22, 2017}
- \author[\footnotesize Timoth\'ee Bonnet ]{ }
+ \title[https://timotheenivalis.github.io/]{}
+ \date{}
+ \author[\footnotesize Dr. Timoth\'ee Bonnet ]{ }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
-
-\begin{frame}{Timoth\'ee Bonnet}
-
-\vfill
-\includegraphics[width=0.03\textwidth]{Figures/tweeter.jpeg} @TimotheeBonnet
-\end{frame}
+% 
+% \begin{frame}{Timoth\'ee Bonnet}
+% 
+% \vfill
+% \includegraphics[width=0.03\textwidth]{Figures/tweeter.jpeg} @TimotheeBonnet
+% \end{frame}
 %%%%%%%%%%%
 \begin{frame}{Evolutionary quantitative genetics}
    
@@ -71,19 +71,39 @@
 %%%%%%%%%%%
 %%%%%%%%%%%
 \begin{frame}{Statistics, coding}
-\centering
+\begin{center}
 \includegraphics[width=1\textwidth]{Figures/bdsi}
+\textbf{Workshops, courses, consulting\dots}
+\end{center}
 
-\begin{align*}
- a
-\end{align*}
+\begin{columns}[c]
+\begin{column}{0.5\textwidth}
+\includegraphics[width=1\textwidth]{Figures/rstudio}
+\end{column}
+\begin{column}{0.5\textwidth}
+    \begin{itemize}
+        \item Statistical modelling / inference
+        \item R-coding
+        \item Computer simulations
+        \item (C++, \LaTeX, bash, Git\dots)
+    \end{itemize}
+\end{column}
+\end{columns}
 
 \end{frame}
 %%%%%%%%%%%
 %%%%%%%%%%%
 \begin{frame}{Naturalism}
- 
-\includegraphics[height=0.8\textheight]{Figures/birding}
+\begin{tikzpicture} 
+    \node (me) at (0,0) {\includegraphics[height=0.8\textheight]{Figures/birding}};
+    
+    \node[anchor=west] (ld) at (3.5,2) {\includegraphics[height=0.3\textheight]{Figures/ld}}; 
+        \node[anchor=west] (skull) at (3,-2) {\includegraphics[height=0.3\textheight]{Figures/skull}};
+    \node[anchor=west] (colub) at (5,0) {\includegraphics[height=0.25\textheight]{Figures/colub}};
+    \node[anchor=west] (ol) at (6,-2.5) {\includegraphics[height=0.3\textheight]{Figures/ol}};
+    \node[anchor=west] (cb) at (-0.3,-1.5) {\includegraphics[height=0.3\textheight]{Figures/catb}};
+     
+\end{tikzpicture}
 \end{frame}
 %%%%%%%%%%%
 
