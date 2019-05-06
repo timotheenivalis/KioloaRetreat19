@@ -21,6 +21,7 @@
  %% Figures %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  \usepackage{graphicx}
  
+ \usepackage{multirow}
  \hypersetup{pdfstartview={Fit}} % fits the presentation to the window when first displayed
  
  \title[Software workshop]{Software workshop}
@@ -106,7 +107,54 @@ twitter et al
 %%%%%%%
 
 \begin{frame}{Reports, manuscripts, presentations, notes \dots}
- 
+    \begin{itemize}
+     \item WYSIWYG vs. WYSIWYW (markup systems)
+     \item Proprietary vs. Open software
+     \item Paying vs. free software
+    \end{itemize}
+
+    \pause
+    
+    \includegraphics[width=0.33\textwidth]{Figures/microsoft}
+    \includegraphics[width=0.33\textwidth]{Figures/libreoff}
+    \includegraphics[width=0.3\textwidth]{Figures/googledrive}
+    
+\end{frame}
+%%%%%%%%
+
+\begin{frame}{Reports, manuscripts, presentations, notes \dots}
+\textbf{\Large Markup systems:}
+
+        \only<1>{
+            \centering \Large \alert{Markdown}\\
+        \includegraphics[width=0.9\textwidth]{Figures/markdown}
+    }
+    \only<2->
+    {    \centering \Large \alert{ \LaTeX }\\
+        
+        \includegraphics[width=0.9\textwidth]{Figures/latex}
+    }
+++ integration with R, control version, stability\dots 
+\end{frame}
+%%%%%%%%
+
+\begin{frame}{Reports, manuscripts, presentations, notes \dots}
+\begin{center}
+\begin{tabular}{llllll}
+ &  Type & Free & Open &  Flexibility& Ease \\
+ \hline
+ Microsoft & \multirow{3}{*}{WYSIWYG} & No & No & ++ & +++\\
+LibreOffice & & Yes & Yes & ++ &  ++\\
+Google drive & & Yes & No & + &  +++\\
+\cline{2-6}
+Markdown & \multirow{2}{*}{Markup} &  Yes & Yes & +  & +++\\
+Latex &  & Yes & Yes & +++ & ++ / +\\
+\hline
+\end{tabular}
+\end{center}
+
+
+
 \end{frame}
 %%%%%%%%
 
